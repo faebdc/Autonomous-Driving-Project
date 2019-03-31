@@ -1,0 +1,115 @@
+\documentclass[12pt]{beamer}
+\usepackage{amssymb}
+\usepackage{animate}
+\usepackage{verbatim}
+%\usepackage{listings}
+%\usepackage[dvipsnames]{xcolor}
+%\usetheme{Pittsburgh}
+\usetheme{Singapore}
+
+
+\begin{document}
+
+\title{Autonomous Driving Presentation}
+\author{Jiang~~Zhihao}
+%\institute{清华大学}
+%\date{}
+
+\begin{frame}
+
+\titlepage
+
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\begin{Large}
+\textcolor{purple}{pnc}
+\end{Large}
+\end{center}
+\end{frame}
+
+\begin{frame}{Normal Case}
+
+route planning(hw)
+\pause
+
+velocity control(hw)
+\pause
+
+turning(hw)
+\pause
+
+traffic light(whether go when it's yellow light)
+
+\end{frame}
+
+\begin{frame}{Special Case}
+
+pedestrian
+
+~~~deceleration
+
+~~~waiting
+
+~~~when turning
+\pause
+
+vehicles
+
+~~~avoid rear-end
+
+~~~at crossroad
+
+\end{frame}
+
+\begin{frame}{Other thinking}
+
+turn around
+\pause
+
+blocking the graph(delete the vertices of objects)
+
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\begin{LARGE}
+\textcolor{purple}{perception}
+\end{LARGE}
+\end{center}
+\end{frame}
+
+\begin{frame}{perception}
+
+detect ground
+
+~~~only consider points whose height is in $0\sim2m$
+\pause
+
+use union set
+
+~~~judge the shape
+
+~~~speed up
+
+\end{frame}
+
+\begin{frame}{Other thinking}
+
+detect road (regular points)(combine with camera)
+\pause
+
+points density
+
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\begin{LARGE}
+\textcolor{purple}{Thanks!}
+\end{LARGE}
+\end{center}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,9 @@
+bazel run //pnc:simulation_main -- --multi_process_mode=false
+
+bazel run //pnc:simulation_main -- --multi_process_mode=false --enable_visualization=false
+
+bazel run //pnc:simulation_main -- --multi_process_mode=false --enable_visualization=false --srand_by_time
+
+bazel run //pnc:replay_main -- --simulation_log_file_path="/tmp/simulation_log.bin"
+
+vim /tmp/simulation_metrics.txt

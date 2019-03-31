@@ -1,0 +1,2 @@
+eval1 : * [Average Precision:0.5591], [Average Recall: 0.4749] *
+eval2 : * [Average Precision:0.6161], [Average Recall: 0.46] *
